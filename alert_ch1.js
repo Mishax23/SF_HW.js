@@ -8,3 +8,7 @@ const text = "Hello";
 const result = text. split(''). reverse(). join('');
 console.log(result);
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * 100);
+}
+console.log(getRandomInt(6));
