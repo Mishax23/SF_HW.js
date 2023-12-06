@@ -12,3 +12,12 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * 100);
 }
 console.log(getRandomInt(6));
+
+
+
+let warMap = new Map();
+warMap.set('crust', box);
+warMap.set(14, 'box2');
+warMap.set(true, 932);
+console.log(warMap.keys())
+console.log(warMap.values())
